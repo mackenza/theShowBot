@@ -7,7 +7,7 @@ module.exports = {
   // The bot's command prefix. The bot will recognize as command any message that begins with it.
   // i.e: "-theshowbot foo" will trigger the command "foo",
   //      whereas "theShowBot foo" will do nothing at all.
-  prefix:  "-theshowbot",
+  prefix:  "!mlb",
 
   // Your bot's user token. If you don't know what that is, go here:
   // https://discordapp.com/developers/applications/me
