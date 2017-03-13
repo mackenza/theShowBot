@@ -2,7 +2,7 @@ module.exports = {
 
   // Your bot name. Typically, this is your bot's username without the discriminator.
   // i.e: if your bot's username is MemeBot#0420, then this option would be MemeBot.
-  name: "theShowBot",
+  name: "TheShowStatsBot",
 
   // The bot's command prefix. The bot will recognize as command any message that begins with it.
   // i.e: "-theshowbot foo" will trigger the command "foo",
@@ -12,7 +12,7 @@ module.exports = {
   // Your bot's user token. If you don't know what that is, go here:
   // https://discordapp.com/developers/applications/me
   // Then create a new application and grab your token.
-  token: "",
+  token: "MjkwNjQwODE4ODI4NjA3NDg5.C6d6KA.R8v2iHrhywVGKBw9UVfaqsxGeM4",
 
   // If this option is enabled, the bot will delete the message that triggered it, and its own
   // response, after the specified amount of time has passed.
@@ -21,7 +21,7 @@ module.exports = {
   // MANAGE_MESSAGES - 	0x00002000
   // More info: https://discordapp.com/developers/docs/topics/permissions
   deleteAfterReply: {
-    enabled: true,
+    enabled: false,
     time: 10000, // In milliseconds
   }
 };
